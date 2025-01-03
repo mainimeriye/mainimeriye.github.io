@@ -1,0 +1,101 @@
+/* Styling for the header */
+.header {
+    font-family: 'AppleSymbols';
+    text-align: left; /* Align the title to the left */
+    margin-bottom: 600px; /* Space between title and links */
+  }
+  
+  .header h1 {
+    font-family: 'AppleSymbols';
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Set a font size for the title */
+    color: #333; /* Set a color for the title */
+  }
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'AppleSymbols';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  .container a {
+    text-decoration: none;  /* Remove underline from the links */
+    color: inherit; /* Inherit the color from parent or set a custom color */
+  }
+  
+  .container span {
+    font-size: 24px;
+    cursor: pointer; /* Show pointer cursor on hover */
+    padding: 5px;
+  }
+  
+  .container a:hover span {
+    color: #800020; /* Change color on hover (optional) */
+  }
+
+  .link {
+    text-decoration: none; /* Remove the underline from links */
+    color: #880808; /* Set a color for the links */
+    font-size: 16px; /* Adjust the font size */
+  }
+  
+  .link:hover {
+    color: #800020; /* Change color on hover */
+  }
+
+  #hamburger-input{
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'AppleSymbols';
+    /* text-align: center;
+    vertical-align: center; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black; 
+
+  }
+
+  a:hover {
+    color: #800020;
+  }
+  a:active {
+    color: #880808;
+  }
+
+@media screen and (max-width: 750px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+  .header{
+    display: none;
+  }
+}
