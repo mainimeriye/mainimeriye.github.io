@@ -69,4 +69,10 @@ body {
     vertical-align: middle;
     border: 1px solid #0E1122;
   }
+
+  #home{
+    float: left;
+    color: #800020;
+    text-decoration: none;
+  }
   
