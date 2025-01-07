@@ -29,6 +29,7 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border: 1px solid #0E1122;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

@@ -99,3 +99,10 @@ body {
     display: none;
   }
 }
+
+#logo {
+  display: inline-block;
+  margin: 0px; 
+  height: 80px;
+  width: auto; 
+}
