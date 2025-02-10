@@ -42,17 +42,17 @@ body {
   }
   
   .container a:hover span {
-    color: #800020; /* Change color on hover (optional) */
+    color: #B4252A; /* Change color on hover (optional) */
   }
 
   .link {
     text-decoration: none; /* Remove the underline from links */
-    color: #880808; /* Set a color for the links */
+    color: #B4252A; /* Set a color for the links */
     font-size: 16px; /* Adjust the font size */
   }
   
   .link:hover {
-    color: #800020; /* Change color on hover */
+    color: #B4252A; /* Change color on hover */
   }
 
   #hamburger-input{
@@ -82,10 +82,10 @@ body {
   }
 
   a:hover {
-    color: #800020;
+    color: #B4252A;
   }
   a:active {
-    color: #880808;
+    color: #B4252A;
   }
 
 @media screen and (max-width: 750px) {
