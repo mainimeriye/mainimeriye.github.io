@@ -179,3 +179,7 @@ body {
   color: #B4252A;
   text-decoration: none;
 }
+
+img {
+  max-width: 720px;
+}
