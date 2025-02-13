@@ -172,6 +172,10 @@ body {
     height:auto;
     width: 100%;
   }
+  .column img{
+    height: auto;
+    width:80%;
+  }
 }
 
 #home{
@@ -180,6 +184,6 @@ body {
   text-decoration: none;
 }
 
-img {
-  max-width: 720px;
-}
+/* img {
+  max-width: 400px;
+} */
