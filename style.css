@@ -30,6 +30,8 @@
   vertical-align: middle;
   width: 100%;
   border: 1px solid #0E1122;
+  height:100px;
+  width:100px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -182,9 +184,4 @@ body {
   float: left;
   color: #B4252A;
   text-decoration: none;
-}
-
-img {
-  height: 1mm;
-  width: 1mm;
 }
