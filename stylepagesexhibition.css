@@ -88,8 +88,8 @@ body {
   }
   
 img{
-    max-width: 23.33%;
-    width: 23.33%;
+    max-width: 80%;
+    width: 80%;
     float: center;
     height: auto;
     border: 1px solid #0E1122;
